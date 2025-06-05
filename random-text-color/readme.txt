@@ -1,5 +1,5 @@
 == 随机彩色文字（Random Text Color） ==
-Contributors: tudoucode
+Contributors: 码铃薯
 Tags: text color, gradient text, colorful text, dark mode
 Requires at least: 5.0
 Tested up to: 6.8
