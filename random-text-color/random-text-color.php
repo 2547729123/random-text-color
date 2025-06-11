@@ -1,12 +1,13 @@
 <?php
 /*
- * Plugin Name: 随机彩色文字（Random Text Color）
+ * Plugin Name: Random Text Color – 随机彩色文字
  * Plugin URI: https://github.com/2547729123/random-text-color
  * Description: 为加粗文字、段落、小标题添加彩色样式，支持深色模式、自定义渐变配置，所有模块可单独开关控制。
- * Version: 2.1
+ * Version: 1.0
  * Author: 码铃薯
  * Author URI: https://www.tudoucode.cn
  * License: GPL2
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: random-text-color
  * Domain Path: /languages/
  * Requires at least: 5.0
@@ -369,7 +370,7 @@ add_filter('plugin_action_links_' . plugin_basename(__FILE__), function($links) 
     $settings_url = esc_url(admin_url('options-general.php?page=rbtc-settings'));
     $settings_link = '<a href="' . $settings_url . '">' . esc_html__('设置', 'random-text-color') . '</a>';
     $pro_url = esc_url('https://www.tudoucode.cn/');
-    $pro_link = '<a href="' . $pro_url . '" target="_blank" style="color:#d54e21; font-weight:bold;">' . esc_html__('升级 Pro 版本', 'random-text-color') . '</a>';
+    $pro_link = '<a href="' . $pro_url . '" target="_blank" style="color:#d54e21;">' . esc_html__('Pro版', 'random-text-color') . '</a>';
     array_unshift($links, $settings_link);
     $links[] = $pro_link;
     return $links;

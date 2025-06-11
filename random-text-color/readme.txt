@@ -1,10 +1,10 @@
-== 随机彩色文字（Random Text Color） ==
-Contributors: 码铃薯
+== Random Text Color – 随机彩色文字 ==
+Contributors: qq420218831
 Tags: text color, gradient text, colorful text, dark mode
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 2.1
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
