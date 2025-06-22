@@ -1,0 +1,49 @@
+/* 后台设置页面专用样式，建议放在 admin.css 或内联样式 */
+
+.rbtc-pro-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.rbtc-pro-card {
+  flex: 1 1 200px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+  text-align: center;
+}
+
+.rbtc-pro-card .icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.rbtc-pro-card h3 {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.rbtc-pro-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.rbtc-pro-upgrade-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 25px;
+  background: #d54e21;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.rbtc-pro-upgrade-btn:hover {
+  background: #bf451b;
+}

@@ -1,0 +1,102 @@
+/* 暗黑模式兼容 */
+@media (prefers-color-scheme: dark) {
+    .entry-content, .post-content, .article-content, article {
+        color: #e0e0e0 !important;
+    }
+    .rainbow-gradient-text {
+        color: transparent !important;
+    }
+    p {
+        color: #d0d0d0 !important;
+    }
+    strong, b {
+        color: #ffcc00 !important;
+    }
+}
+
+/* 渐变文字基础样式 */
+.rainbow-gradient-text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-weight: bold;
+    display: inline;
+}
+
+/* 后台设置页面样式 */
+.rbtc-wrap h1 {
+    margin-bottom: 24px;
+    color: #222;
+    font-weight: 700;
+}
+.rbtc-wrap hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.rbtc-wrap h2 {
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: #333;
+}
+.rbtc-wrap p, .rbtc-wrap ul {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+.rbtc-wrap ul {
+    padding-left: 20px;
+}
+.rbtc-pro-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.rbtc-pro-card {
+    flex: 1 1 280px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(34, 113, 177, 0.15);
+    padding: 20px;
+    color: #222;
+    transition: box-shadow 0.3s ease;
+    cursor: default;
+}
+.rbtc-pro-card:hover {
+    box-shadow: 0 12px 30px rgba(34, 113, 177, 0.3);
+}
+.rbtc-pro-card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #2271b1;
+    font-weight: 700;
+    font-size: 18px;
+}
+.rbtc-pro-card p {
+    font-size: 14px;
+    color: #555;
+}
+.rbtc-pro-card .icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #2271b1;
+}
+.rbtc-pro-upgrade-btn {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 10px 28px;
+    background: #2271b1;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px rgba(34,113,177,0.4);
+    transition: background 0.3s ease;
+}
+.rbtc-pro-upgrade-btn:hover {
+    background: #135e96;
+    box-shadow: 0 8px 18px rgba(19,94,150,0.6);
+}
